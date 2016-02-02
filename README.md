@@ -19,7 +19,12 @@ Node 기반의 Front-end 개발 프레임워크이다. HTML element node와 Java
 ### 사용 가이드
 Jnode Framework의 자세한 사용법은 아래의 Jnode Framework 공식 사이트를 참조하기 바란다.
 
-[http://jnode.jeasu.kim](http://jnode.jeasu.kim/)
+[http://jnodeframework.com](http://jnodeframework.com/)
 
 ### 사용 환경
 Jnode Framework는 HTML5를 지원하는 Web Application을 개발하기 위한 Front-end 개발 프레임워크이다. Back-end 환경이 JEE Servlet 3.0 이상이라면 +back-end 추가 패키지를 통해 JEE Server 환경의 추가 기능들을 사용할 수 있다. JEE Servlet 3.0 이하의 환경이라면 제공되는 소스를 통해 직접 구축할 수도 있다.
+
+### 기부 Donate
+Jnode Framework는 100% 무료 소프트웨어이다! 만약 Jnode Framework을 사용하면서 유용하다고 생각했다면, 자발적인 기부를 부탁드린다. 금액에 상관없이 참여한 기부금에 대해 보다 나은 Jnode Framework 개발로 보답하겠다. 아울러 우리 나라에서도 공개 소프트웨어가 활성화되고, 기부문화도 활성화되는 계기가 되었으면 한다.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6YYMTECUZXM9S)
