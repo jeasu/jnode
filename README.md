@@ -1,30 +1,35 @@
 Jnode Framework
 ======
-Node 기반의 Front-end 개발 프레임워크이다. HTML element node와 JavaScript hierarchical object node 단위로 개발을 할 수 있다. 단순히 HTML 소스들을 쪼개서 Include하고, 실제 Client로부터의 요청시마다 전체 페이지가 합쳐져서 네트워크를 통해 매번 내려오는 비효율적인 방식이 아니라, 실제로 필요한 Node만 요청을 하고 해당 Node를 위한 Template 파일과 JavaScript 파일, CSS 파일들이 렌더링되어 진다.
+Jnode Framework is a node based front-end development framework. You can partly develop your site using HTML element nodes and JavaScript hierarchical object nodes based on the functions. In case of structured development of templates involving HTML, you can develop templates separately classified according to those features. Because when answering a client request, the web application engine generates a whole template file using its include function, divided source codes are simply combined and sent to the network as a whole template inefficiently. But this framework calls nodes and theirs subordinate components like templates, JavaScript and CSS files by actual necessity for rendering.
 
 ![Alt Jnode Framework architecutre](images/jnode_architecture.png?raw=true "Jnode Framework architecutre")
 
-> 비대해진 프레임워크(Heavy framework)로 인해 피로도가 높아진 개발자들을 위해 가벼운 프레임워크(Thin framework)을 제공한다.
+This is a list of benefits when you use the framework:
 
-> 무늬뿐인 HTML5을 따르는 개발 환경이 아니라, 진정한 HTML5 권고안에 충실한 개발 환경을 구축해 준다.
+> This is a thin framework that can be helpful for the developers who feel tired with heavy frameworks.
 
-> 다양한 Template engine들을 플러그인처럼 add-on할 수 있다.
+> Also using this framework, you can be followed with HTML5 recommendation, not to be pretended to do.
 
-> Template 파일로부터 JavaScript 파일, CSS 파일들을 분리하기 위한 최적화된 방법을 제시해 준다.
+> With the framework, you can add-on various template engines.
 
-> HTML Controller, JavaScript Module 등 편리 라이브러리들을 제공하여 보다 쉽게 개발을 할 수 있다.
+> It gives an optimized way to separate JavaScript and CSS from template files.
 
-> +back-end 추가 패키지를 통해 JEE Server 환경의 data를 binding하여 Front-end에서 사용할 수 있다.
+> There are some libraries named as HTML Controller, JavaScript Module that can help your development easily.
 
-### 사용 가이드
-Jnode Framework의 자세한 사용법은 아래의 Jnode Framework 공식 사이트를 참조하기 바란다.
+> You can bind back-end data to the front-end through +back-end additional modules for JEE and PHP.
+
+### Guide
+To know more details, you can visit the official Jnode Framework site below:
 
 [http://jnodeframework.com](http://jnodeframework.com/)
 
-### 사용 환경
-Jnode Framework는 HTML5를 지원하는 Web Application을 개발하기 위한 Front-end 개발 프레임워크이다. Back-end 환경이 JEE Servlet 3.0 이상이라면 +back-end 추가 패키지를 통해 JEE Server 환경의 추가 기능들을 사용할 수 있다. JEE Servlet 3.0 이하의 환경이라면 제공되는 소스를 통해 직접 구축할 수도 있다.
+### Support Environment
+This framework supports developing applications that run in client web browsers such as Safari, Chrome, Opera, Firefox, Edge, Internet Explorer that support HTML5. It is front-end development framework, but also gives additional modules for JEE and PHP that are popular for back-end development environment. Through this feature, you can manage front-end template files at back-end side, and bind back-end data to the front-end. Simply, this framework supports JEE Servlet 3.0 and PHP 7.0 higher. If you want to use this framework under the environment, you can use supported source codes for direct implementation.
 
-### 기부 Donate
-Jnode Framework는 100% 무료 소프트웨어이다! 만약 Jnode Framework을 사용하면서 유용하다고 생각했다면, 자발적인 기부를 부탁드린다. 금액에 상관없이 참여한 기부금에 대해 보다 나은 Jnode Framework 개발로 보답하겠다. 아울러 우리 나라에서도 공개 소프트웨어가 활성화되고, 기부문화도 활성화되는 계기가 되었으면 한다.
+### Donation
+Jnode Framework is a free software. If you use this framework, and take some benefits, please donate for the framework. Through your donation, the framework will be better. Also, I hope to see more free software and donation culture.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6YYMTECUZXM9S)
+
+### Read in anther language
+[한국어 (Korean)](https://github.com/jeasu/jnode/blob/master/README_ko.md)
